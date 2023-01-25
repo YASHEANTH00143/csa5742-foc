@@ -1,0 +1,16 @@
+echo "Enter the side of the square:"
+read s
+echo "Enter the length and breath of rectangle:"
+read leng
+read brea
+echo "Enter the radious of the circle:"
+read radius
+square=$(($s*$s))
+rectangle=$(($leng*$brea))
+circle=$(("22/7"*$radius*$radius))
+echo "Area of the square is:'$s'='$square'"
+echo "Area of the rectangle is: ' $leng''$brea'='$rectangle'"
+echo "Area of the circle is: '$radius'='$circle'"
+echo "square of the square is'$ss'"
+echo "square of the rectangle is'$sr'"
+echo "square of the circle is'$sc'"
