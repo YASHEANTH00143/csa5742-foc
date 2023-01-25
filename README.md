@@ -2,4 +2,4 @@
 
 ## SQUARE OF A NUMBER
 (https://github.com/YASHEANTH00143/csa5742-foc)
-<img width="422" alt="image" src="https://user-images.githubusercontent.com/112794125/191252519-b036fcc5-e57f-4d2b-9a0b-1350d90d84bd.png">
+![square of a number](https://user-images.githubusercontent.com/114128307/214475751-1c612420-1dbc-4def-8d93-1930bd91ca7d.JPG)
