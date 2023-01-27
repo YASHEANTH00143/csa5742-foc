@@ -1,0 +1,24 @@
+echo "student marksheet"
+echo "enter c marks"
+read c
+echo "enter java marks"
+read java
+total=$(($c+$java))
+echo "total marks='$total'"
+p=$(($total/2))
+echo "total percentage scored is'$p'%"
+if [ $p > 90 ]
+then
+        echo "grade=A"
+elif [ $p > 80 ]
+then
+        echo "brade=B"
+elif [ $p > 70 ]
+then
+        echo "grade=C"
+elif [ $p > 50]
+then
+        echo "grade=D"
+else
+        echo "grade=f"
+fi
