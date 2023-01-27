@@ -1,0 +1,18 @@
+echo "enter a number"
+read num
+s=0
+rev=""
+temp=$num
+a=10
+while [ $num -gt 0 ]
+do
+        s=$(( $num % $a ))
+        num=$(( $num / $a ))
+        rev=$( echo ${rev}${s} )
+done
+if [ $temp -eq $rev ];
+then
+        echo "palindrome"
+else
+        echo "not palindrome"
+fi
