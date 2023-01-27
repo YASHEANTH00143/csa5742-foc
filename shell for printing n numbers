@@ -1,0 +1,9 @@
+echo "enter the number"
+read a
+echo "enter the n limit"
+c=0
+while [ $c -le $a ]
+do
+        echo $c
+        c=$((c+1))
+done
