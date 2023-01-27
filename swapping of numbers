@@ -1,0 +1,9 @@
+echo "enter num1"
+read num1
+echo "enter num2"
+read num2
+echo "number before swapping'$num1''$num2'"
+num3=$num1
+num1=$num2
+num2=$num3
+echo "after swapping'$num1''$num2'"
