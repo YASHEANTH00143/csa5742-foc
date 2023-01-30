@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int  n,sum=0,i;
+	printf("enter the number until which the squares of odd numbers has to be calculated :");
+	scanf("%d",&n);
+	for (i=1;i<=n;){
+		sum=sum+i*i;
+		i=i+2;
+	}
+	printf("the sum of squares of odd numbers until %d is %d",n,sum);
+	return 0;
+}
