@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int n,i,sum=0,c;
+	printf("enter the n numbers to be summed up :");
+	scanf("%d",&n);
+	for (i=1;i<=n;i++){
+		c=i*i*i;
+		sum=sum+c;
+	}
+	printf("the sum of cubes of n odd numbers is %d",sum);
+	return 0;
+}
